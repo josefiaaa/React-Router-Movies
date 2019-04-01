@@ -6,6 +6,7 @@ body {
 }
 
 .movie-card {
+  color: black;
   background-color: #fff;
   border: 0;
   box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
@@ -14,11 +15,18 @@ body {
   cursor: pointer;
   position: relative;
   margin: 1rem auto;
+  text-decoration: none;
 }
+
+/* .movie-card a {
+  text-decoration: 
+} */
 
 .movie-director {
   padding: 4px 0;
   font-size: 0.8rem;
+  text-decoration: none;
+  color: black;
 }
 
 .saved-list {
